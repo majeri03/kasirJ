@@ -34,6 +34,12 @@
         {
           "cameraPermission": "Izinkan $(PRODUCT_NAME) untuk mengakses kamera Anda untuk memindai barcode produk."
         }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Izinkan $(PRODUCT_NAME) untuk menggunakan kamera."
+        }
       ]
     ],
     "extra": {

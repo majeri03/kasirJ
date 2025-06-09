@@ -25,7 +25,8 @@
     "papaparse": "^5.4.1",
     "expo-print": "~14.1.4",
     "expo-sharing": "~13.1.5",
-    "expo-dev-client": "~5.2.0"
+    "expo-dev-client": "~5.2.0",
+    "expo-camera": "~16.1.7"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
