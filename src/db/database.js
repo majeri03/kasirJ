@@ -1,4 +1,4 @@
-import * as SQLite from 'expo-sqlite/next';
+import * as SQLite from 'expo-sqlite';
 
 const DB_NAME = "pos_main.db";
 let db = null;

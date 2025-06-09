@@ -38,8 +38,9 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "bd39095a-fb7d-49ae-a557-9a31c273d377"
+        "projectId": "b553a665-7b1c-4c1c-ae81-87a90f38bf64"
       }
-    }
+    },
+    "owner": "jery_123"
   }
 }
