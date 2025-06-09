@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "POS Offline Modern",
+    "slug": "pos-offline-modern",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.posofflinemodern"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.yourcompany.posofflinemodern",
+      "permissions": [
+        "android.permission.CAMERA"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-barcode-scanner",
+        {
+          "cameraPermission": "Izinkan $(PRODUCT_NAME) untuk mengakses kamera Anda untuk memindai barcode produk."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "bd39095a-fb7d-49ae-a557-9a31c273d377"
+      }
+    }
+  }
+}
